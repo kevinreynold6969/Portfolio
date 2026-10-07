@@ -2,7 +2,7 @@
   --bg: #ffffff;
   --text: #1a1a1a;
   --card: #f2f2f2;
-  --accent: #4f46e5;
+  --accent: #f9264d;
 }
 
 body.dark {
@@ -56,4 +56,8 @@ section { padding: 40px; max-width: 900px; margin: auto; }
   background: var(--card);
   padding: 20px 28px;
   border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
